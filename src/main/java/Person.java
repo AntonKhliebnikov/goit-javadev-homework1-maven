@@ -1,4 +1,11 @@
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Person {
-    private String name = "Anton";
-    private String lastName = "Khliebnikov";
+    private String name;
+    private String lastName;
 }
